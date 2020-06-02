@@ -54,6 +54,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ABFElements.cs" />
     <Compile Include="CtrlForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +65,7 @@
     <Compile Include="Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utility.cs" />
+    <Compile Include="UVUnwrapper.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="CtrlForm.resx">
