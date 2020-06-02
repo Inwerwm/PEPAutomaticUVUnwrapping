@@ -1,0 +1,2 @@
+# PEPAutomaticUVUnwrapping
+PMXエディタ向けUV自動展開プラグイン
