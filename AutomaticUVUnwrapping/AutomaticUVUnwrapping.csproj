@@ -37,6 +37,9 @@
     <Reference Include="MathNet.Numerics, Version=4.11.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\MathNet.Numerics.4.11.0\lib\net461\MathNet.Numerics.dll</HintPath>
     </Reference>
+    <Reference Include="PEPExtensions">
+      <HintPath>..\..\PEPExtensions\PEPExtensions\bin\Release\PEPExtensions.dll</HintPath>
+    </Reference>
     <Reference Include="PEPlugin">
       <HintPath>..\..\..\PmxEditor\Lib\PEPlugin\PEPlugin.dll</HintPath>
     </Reference>
@@ -61,10 +64,10 @@
     <Compile Include="CtrlForm.Designer.cs">
       <DependentUpon>CtrlForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ExtensionMethods.cs" />
+    <Compile Include="Exceptions.cs" />
     <Compile Include="Main.cs" />
+    <Compile Include="NLElements.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Utility.cs" />
     <Compile Include="UVUnwrapper.cs" />
   </ItemGroup>
   <ItemGroup>

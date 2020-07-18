@@ -37,5 +37,10 @@ namespace AutomaticUVUnwrapping
                 Visible = false;
             }
         }
+
+        private void UVUnwrapping()
+        {
+
+        }
     }
 }
